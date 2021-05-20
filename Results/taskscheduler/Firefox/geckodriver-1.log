@@ -1,0 +1,216 @@
+1618322732770	geckodriver	INFO	geckodriver 0.21.0
+1618322732787	geckodriver	INFO	Listening on 127.0.0.1:51516
+1618322736112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Coresys\\AppData\\Local\\Temp\\rust_mozprofile.SZhWuAnDALGu"
+1618322740507	Marionette	TRACE	Marionette enabled
+1618322740534	Marionette	TRACE	Received observer notification toplevel-window-ready
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback (SW-)WR to Basic
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1618322780442	Marionette	TRACE	Received observer notification marionette-startup-requested
+1618322780670	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1618322780698	Marionette	TRACE	All scripts recorded.
+1618322780698	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1618322780698	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1618322780698	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1618322780698	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1618322780698	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1618322780699	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1618322780699	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1618322780699	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1618322780699	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1618322780699	Marionette	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1618322780699	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1618322780699	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1618322780699	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1618322780699	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1618322780700	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1618322780700	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1618322780700	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1618322780700	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1618322780700	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1618322780700	Marionette	DEBUG	Setting recommended pref prompts.contentPromptSubDialog to false
+1618322780700	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1618322780700	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1618322780700	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1618322780702	Marionette	INFO	Listening on port 51529
+1618322780702	Marionette	DEBUG	Marionette is listening
+1618322781169	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51644
+1618322781182	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1618322781182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618322781193	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"34f82354-2d8c-4e1b-a50b-df697d343a5b","capabilities":{"browserName":"firefox","browserVersion":"87.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1618322781201	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"script":5000}]
+1618322781202	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1618322781206	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":0}]
+1618322781207	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1618322781212	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1618322781218	Marionette	TRACE	[18] MarionetteCommands actor created for window id 4294967297
+1618322781222	Marionette	TRACE	[18] MarionetteEvents actor created for window id 4294967297
+1618322781222	Marionette	TRACE	Received event beforeunload for about:blank
+1618322782131	Marionette	TRACE	Received event pagehide for about:blank
+1618322783304	Marionette	TRACE	[18] MarionetteEvents actor created for window id 4294967298
+1618322783305	Marionette	TRACE	Received event DOMContentLoaded for https://www.amazon.com/
+1618322785163	Marionette	TRACE	Received event pageshow for https://www.amazon.com/
+1618322785164	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1618322785173	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., \"Today's Deals\")]"}]
+1618322785273	Marionette	TRACE	[18] MarionetteCommands actor created for window id 4294967298
+1618322785295	Marionette	DEBUG	0 <- [1,5,null,[{"element-6066-11e4-a52e-4f735466cecf":"71010b8c-398f-4dea-ac3a-be9829394524"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"d6bca91d-8ec6-42db-b43c-a89a9d1b547c"},{"element-6066-11e4-a52e-4f735466cecf":"12a7b8e5-6019-44b6-849a-8321c534cd7b"}]]
+1618322785300	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElements",{"using":"css selector","value":"[id=\"twotabsearchtextbox\"]"}]
+1618322785400	Marionette	DEBUG	0 <- [1,6,null,[{"element-6066-11e4-a52e-4f735466cecf":"a9137709-789b-4fb4-85ac-f465bf1cd263"}]]
+1618322785406	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementClear",{"id":"a9137709-789b-4fb4-85ac-f465bf1cd263"}]
+1618322785461	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1618322785466	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"a9137709-789b-4fb4-85ac-f465bf1cd263","text":"vertical laptop mount","value":["v","e","r","t","i","c","a","l"," ","l","a","p","t","o","p"," ","m","o","u","n","t"]}]
+1618322785622	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1618322785627	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElements",{"using":"css selector","value":"[id=\"nav-search-submit-button\"]"}]
+1618322785660	Marionette	DEBUG	0 <- [1,9,null,[{"element-6066-11e4-a52e-4f735466cecf":"a22c3664-3465-422b-aa58-070afc3f0676"}]]
+1618322785663	Marionette	DEBUG	0 -> [0,10,"WebDriver:GetElementTagName",{"id":"a22c3664-3465-422b-aa58-070afc3f0676"}]
+1618322785673	Marionette	DEBUG	0 <- [1,10,null,{"value":"input"}]
+1618322785678	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClick",{"id":"a22c3664-3465-422b-aa58-070afc3f0676"}]
+1618322785734	Marionette	TRACE	Received DOM event click for [object HTMLInputElement]
+1618322785736	Marionette	TRACE	Received event beforeunload for https://www.amazon.com/
+1618322786422	Marionette	TRACE	Received event pagehide for https://www.amazon.com/
+1618322786423	Marionette	TRACE	[4294967297] MarionetteEvents actor created for window id 4294967300
+1618322787148	Marionette	TRACE	[18] MarionetteEvents actor created for window id 4294967301
+1618322787148	Marionette	TRACE	Received event DOMContentLoaded for https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=vertical+laptop+mount
+1618322787231	Marionette	TRACE	[4294967298] MarionetteEvents actor created for window id 4294967307
+1618322787233	Marionette	TRACE	[4294967299] MarionetteEvents actor created for window id 4294967306
+1618322787235	Marionette	TRACE	[4294967300] MarionetteEvents actor created for window id 4294967305
+1618322787242	Marionette	TRACE	[4294967298] MarionetteEvents actor created for window id 4294967310
+1618322787243	Marionette	TRACE	[4294967299] MarionetteEvents actor created for window id 4294967311
+1618322787353	Marionette	TRACE	[4294967298] MarionetteEvents actor created for window id 4294967312
+1618322787380	Marionette	TRACE	[4294967299] MarionetteEvents actor created for window id 4294967313
+1618322788248	Marionette	TRACE	[4294967300] MarionetteEvents actor created for window id 4294967314
+1618322788260	Marionette	TRACE	[4294967301] MarionetteEvents actor created for window id 4294967309
+1618322800330	Marionette	TRACE	[4294967301] MarionetteEvents actor created for window id 4294967315
+1618322800734	Marionette	TRACE	Received event pageshow for https://www.amazon.com/s?k=vertical+laptop+mount&ref=nb_sb_noss
+1618322800734	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1618322800741	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., 'results for \"vertical laptop mount\"')]"}]
+1618322800755	Marionette	TRACE	[18] MarionetteCommands actor created for window id 4294967301
+1618322800775	Marionette	DEBUG	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"a9ce9060-de1d-472e-9fdc-621b6364a9c2"},{"element-6066-11e4-a52e-4f735466c ... ecf":"d52a8f97-b19d-449f-ac43-8772bedfd210"},{"element-6066-11e4-a52e-4f735466cecf":"8d90d7e6-54f7-4a47-ab81-1d81cdf1d07f"}]]
+1618322800780	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='search']/div[1]/div/div[1]/div/span[3]/div[2]/div[1]/div/span/div/div/div/div/div[2]/div[1]/div/div/span/a/div/img"}]
+1618322800783	Marionette	DEBUG	0 <- [1,13,null,[{"element-6066-11e4-a52e-4f735466cecf":"8c9c2e69-3442-4a54-9ff3-fbd2139b206b"}]]
+1618322800785	Marionette	DEBUG	0 -> [0,14,"WebDriver:GetElementTagName",{"id":"8c9c2e69-3442-4a54-9ff3-fbd2139b206b"}]
+1618322800786	Marionette	DEBUG	0 <- [1,14,null,{"value":"img"}]
+1618322800788	Marionette	DEBUG	0 -> [0,15,"WebDriver:ElementClick",{"id":"8c9c2e69-3442-4a54-9ff3-fbd2139b206b"}]
+1618322800811	Marionette	TRACE	Received DOM event click for [object HTMLImageElement]
+1618322800817	Marionette	TRACE	Received event beforeunload for https://www.amazon.com/s?k=vertical+laptop+mount&ref=nb_sb_noss
+1618322802726	Marionette	TRACE	[4294967302] MarionetteEvents actor created for window id 4294967317
+1618322803285	Marionette	TRACE	Received event pagehide for https://www.amazon.com/s?k=vertical+laptop+mount&ref=nb_sb_noss
+1618322805113	Marionette	TRACE	[18] MarionetteEvents actor created for window id 4294967318
+1618322805114	Marionette	TRACE	Received event DOMContentLoaded for https://www.amazon.com/JARLINK-Vertical-Adjustable-Desktop-Compatible/dp/B076HLKRCW/ref=sr_1_1_sspa?dchild=1&keywords=vertica ... uY3J5cHRlZEFkSWQ9QTAxNDgzMDEyTTBaSUdZTjQ2NEhWJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+1618322811212	Marionette	TRACE	[4294967304] MarionetteEvents actor created for window id 4294967324
+1618322811869	Marionette	TRACE	[4294967305] MarionetteEvents actor created for window id 4294967325
+1618322812045	Marionette	TRACE	[4294967306] MarionetteEvents actor created for window id 4294967326
+1618322812047	Marionette	TRACE	[4294967303] MarionetteEvents actor created for window id 4294967320
+1618322812390	Marionette	TRACE	Received event pageshow for https://www.amazon.com/JARLINK-Vertical-Adjustable-Desktop-Compatible/dp/B076HLKRCW/ref=sr_1_1_sspa?dchild=1&keywords=vertica ... uY3J5cHRlZEFkSWQ9QTAxNDgzMDEyTTBaSUdZTjQ2NEhWJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+1618322812390	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1618322812399	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., 'Back to results')]"}]
+1618322812428	Marionette	TRACE	[18] MarionetteCommands actor created for window id 4294967318
+1618322812462	Marionette	DEBUG	0 <- [1,16,null,[{"element-6066-11e4-a52e-4f735466cecf":"bf8cf450-7988-43e9-857c-a048c8448579"},{"element-6066-11e4-a52e-4f735466c ... ecf":"14836fa1-ef8d-4cfc-bb89-29f4ea63e710"},{"element-6066-11e4-a52e-4f735466cecf":"865cb36c-31b3-457d-9a42-4aedc0f29cf7"}]]
+1618322812465	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElements",{"using":"css selector","value":"[id=\"add-to-cart-button\"]"}]
+1618322812476	Marionette	DEBUG	0 <- [1,17,null,[{"element-6066-11e4-a52e-4f735466cecf":"a89726db-34a4-4e7e-a950-71d9dcf019b7"}]]
+1618322812479	Marionette	DEBUG	0 -> [0,18,"WebDriver:GetElementTagName",{"id":"a89726db-34a4-4e7e-a950-71d9dcf019b7"}]
+1618322812480	Marionette	DEBUG	0 <- [1,18,null,{"value":"input"}]
+1618322812482	Marionette	DEBUG	0 -> [0,19,"WebDriver:ElementClick",{"id":"a89726db-34a4-4e7e-a950-71d9dcf019b7"}]
+1618322812503	Marionette	TRACE	Received DOM event click for [object HTMLInputElement]
+1618322812718	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1618322812718	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1618322812721	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., 'Added to Cart')]"}]
+1618322812891	Marionette	TRACE	[4294967310] MarionetteEvents actor created for window id 4294967334
+1618322812991	Marionette	DEBUG	0 <- [1,20,null,[]]
+1618322813197	Marionette	DEBUG	0 -> [0,21,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., 'Added to Cart')]"}]
+1618322813243	Marionette	DEBUG	0 <- [1,21,null,[]]
+1618322813431	Marionette	TRACE	[4294967311] MarionetteEvents actor created for window id 4294967336
+1618322813459	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., 'Added to Cart')]"}]
+1618322813505	Marionette	DEBUG	0 <- [1,22,null,[{"element-6066-11e4-a52e-4f735466cecf":"bf8cf450-7988-43e9-857c-a048c8448579"},{"element-6066-11e4-a52e-4f735466c ... ecf":"d5d9f38b-ffc8-4711-a3a0-a560598b5802"},{"element-6066-11e4-a52e-4f735466cecf":"75ab3852-ac10-4a88-ac94-3c3d6422491e"}]]
+1618322813510	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-desktop-sideSheet']"}]
+1618322813527	Marionette	DEBUG	0 <- [1,23,null,[{"element-6066-11e4-a52e-4f735466cecf":"2ca6e33f-00bd-4b7d-ab24-bfe587112f18"}]]
+1618322813532	Marionette	DEBUG	0 -> [0,24,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2ca6e33f-00bd-4b7d-ab24-bfe587112f18","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1618322813561	Marionette	DEBUG	0 <- [1,24,null,{"value":true}]
+1618322813616	Marionette	DEBUG	0 -> [0,25,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-sidesheet-checkout-button']/span/input"}]
+1618322813624	Marionette	DEBUG	0 <- [1,25,null,[{"element-6066-11e4-a52e-4f735466cecf":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]]
+1618322813631	Marionette	DEBUG	0 -> [0,26,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1618322813646	Marionette	DEBUG	0 <- [1,26,null,{"value":false}]
+1618322813860	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-sidesheet-checkout-button']/span/input"}]
+1618322813868	Marionette	DEBUG	0 <- [1,27,null,[{"element-6066-11e4-a52e-4f735466cecf":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]]
+1618322813873	Marionette	DEBUG	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1618322813882	Marionette	DEBUG	0 <- [1,28,null,{"value":false}]
+1618322814117	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-sidesheet-checkout-button']/span/input"}]
+1618322814124	Marionette	DEBUG	0 <- [1,29,null,[{"element-6066-11e4-a52e-4f735466cecf":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]]
+1618322814130	Marionette	DEBUG	0 -> [0,30,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1618322814141	Marionette	DEBUG	0 <- [1,30,null,{"value":false}]
+1618322814431	Marionette	DEBUG	0 -> [0,31,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-sidesheet-checkout-button']/span/input"}]
+1618322814462	Marionette	DEBUG	0 <- [1,31,null,[{"element-6066-11e4-a52e-4f735466cecf":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]]
+1618322814492	Marionette	DEBUG	0 -> [0,32,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1618322814510	Marionette	DEBUG	0 <- [1,32,null,{"value":false}]
+1618322814730	Marionette	DEBUG	0 -> [0,33,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-sidesheet-checkout-button']/span/input"}]
+1618322814738	Marionette	DEBUG	0 <- [1,33,null,[{"element-6066-11e4-a52e-4f735466cecf":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]]
+1618322814744	Marionette	DEBUG	0 -> [0,34,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1618322814760	Marionette	DEBUG	0 <- [1,34,null,{"value":false}]
+1618322814978	Marionette	DEBUG	0 -> [0,35,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-sidesheet-checkout-button']/span/input"}]
+1618322814980	Marionette	DEBUG	0 <- [1,35,null,[{"element-6066-11e4-a52e-4f735466cecf":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]]
+1618322814986	Marionette	DEBUG	0 -> [0,36,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1618322815010	Marionette	DEBUG	0 <- [1,36,null,{"value":true}]
+1618322815013	Marionette	DEBUG	0 -> [0,37,"WebDriver:FindElements",{"using":"xpath","value":"//*[@id='attach-sidesheet-checkout-button']/span/input"}]
+1618322815019	Marionette	DEBUG	0 <- [1,37,null,[{"element-6066-11e4-a52e-4f735466cecf":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]]
+1618322815021	Marionette	DEBUG	0 -> [0,38,"WebDriver:GetElementTagName",{"id":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]
+1618322815022	Marionette	DEBUG	0 <- [1,38,null,{"value":"input"}]
+1618322815025	Marionette	DEBUG	0 -> [0,39,"WebDriver:ElementClick",{"id":"a88a31d5-ed8e-491e-bf1a-d8c0a9533cf0"}]
+1618322815041	Marionette	TRACE	Received event beforeunload for https://www.amazon.com/JARLINK-Vertical-Adjustable-Desktop-Compatible/dp/B076HLKRCW/ref=sr_1_1_sspa?dchild=1&keywords=vertica ... uY3J5cHRlZEFkSWQ9QTAxNDgzMDEyTTBaSUdZTjQ2NEhWJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+1618322815045	Marionette	TRACE	[4294967307] MarionetteEvents actor created for window id 4294967328
+1618322815045	Marionette	TRACE	[4294967308] MarionetteEvents actor created for window id 4294967330
+1618322815045	Marionette	TRACE	[4294967309] MarionetteEvents actor created for window id 4294967332
+1618322815052	Marionette	TRACE	Received DOM event click for [object HTMLInputElement]
+1618322816450	Marionette	TRACE	Received event pagehide for https://www.amazon.com/JARLINK-Vertical-Adjustable-Desktop-Compatible/dp/B076HLKRCW/ref=sr_1_1_sspa?dchild=1&keywords=vertica ... uY3J5cHRlZEFkSWQ9QTAxNDgzMDEyTTBaSUdZTjQ2NEhWJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+1618322816666	Marionette	TRACE	[18] MarionetteEvents actor created for window id 4294967337
+1618322816667	Marionette	TRACE	Received event DOMContentLoaded for https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.o ... 3D&pageId=amazon_checkout_us&showRmrMe=0&siteState=isRegularCheckout.1%7CIMBMsgs.%7CisRedirect.1&suppressSignInRadioButtons=0
+1618322816696	Marionette	TRACE	[4294967312] MarionetteEvents actor created for window id 4294967339
+1618322816888	Marionette	TRACE	Received event pageshow for https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.o ... 3D&pageId=amazon_checkout_us&showRmrMe=0&siteState=isRegularCheckout.1%7CIMBMsgs.%7CisRedirect.1&suppressSignInRadioButtons=0
+1618322816888	Marionette	DEBUG	0 <- [1,39,null,{"value":null}]
+1618322816896	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElements",{"using":"xpath","value":"//*[contains(., 'Sign-In')]"}]
+1618322817015	Marionette	TRACE	[18] MarionetteCommands actor created for window id 4294967337
+1618322817025	Marionette	DEBUG	0 <- [1,40,null,[{"element-6066-11e4-a52e-4f735466cecf":"4ae476f6-cf10-4efb-a889-3e69f3666bd4"},{"element-6066-11e4-a52e-4f735466c ... ecf":"a3554dc3-6544-432a-a053-0e6498d93172"},{"element-6066-11e4-a52e-4f735466cecf":"c494eb48-512a-4f5c-9e9e-217363fcfefc"}]]
+1618322817033	Marionette	DEBUG	0 -> [0,41,"WebDriver:FindElements",{"using":"xpath","value":"//h1[contains(text(),'Sign-In')]"}]
+1618322817034	Marionette	DEBUG	0 <- [1,41,null,[{"element-6066-11e4-a52e-4f735466cecf":"04c14149-3051-4dc7-8b2a-e19501b4a4ff"}]]
+1618322817041	Marionette	DEBUG	0 -> [0,42,"WebDriver:FindElements",{"using":"xpath","value":"//h1[contains(text(),'Sign-In')]"}]
+1618322817042	Marionette	DEBUG	0 <- [1,42,null,[{"element-6066-11e4-a52e-4f735466cecf":"04c14149-3051-4dc7-8b2a-e19501b4a4ff"}]]
+1618322817044	Marionette	DEBUG	0 -> [0,43,"WebDriver:GetElementText",{"id":"04c14149-3051-4dc7-8b2a-e19501b4a4ff"}]
+1618322817057	Marionette	DEBUG	0 <- [1,43,null,{"value":"Sign-In"}]
+1618322817421	Marionette	TRACE	[4294967312] MarionetteEvents actor created for window id 4294967340
+1618322820063	Marionette	DEBUG	0 -> [0,44,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1618322820063	Marionette	INFO	Stopped listening on port 51529
+1618322820085	Marionette	TRACE	Received observer notification quit-application
+1618322820087	Marionette	DEBUG	0 <- [1,44,null,{"cause":"shutdown"}]
+1618322820734	Marionette	DEBUG	0 -> [0,45,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1618322820734	Marionette	DEBUG	0 <- [1,45,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:239:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+1618322820742	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+[Parent 25568, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1618322838281	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1618322838281	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1618322838281	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1618322838281	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1618322838281	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1618322838281	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1618322838281	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1618322838281	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1618322838282	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1618322838282	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1618322838282	Marionette	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1618322838282	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1618322838282	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1618322838282	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1618322838282	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1618322838283	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1618322838283	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1618322838283	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1618322838283	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1618322838283	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1618322838283	Marionette	DEBUG	Resetting recommended pref prompts.contentPromptSubDialog
+1618322838283	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1618322838283	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1618322838283	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1618322838283	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
